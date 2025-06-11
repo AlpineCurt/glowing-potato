@@ -1,4 +1,4 @@
-import { Result } from "./types";
+import { Result, LLA } from "./types";
 
 export default class GeoUtils {
   static doSomething(xyz: number): Result {
@@ -7,5 +7,9 @@ export default class GeoUtils {
       howdyDoodie: "uh...yeehaw!",
       urNum: xyz,
     };
+  }
+
+  static doOtherThing(xyz: LLA): string {
+    return "happy!!";
   }
 }
