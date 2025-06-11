@@ -1,3 +1,3 @@
-export default function (durr: string) {
+export default function hurr(durr: string) {
   console.log(`you typed ${durr}`);
 }
