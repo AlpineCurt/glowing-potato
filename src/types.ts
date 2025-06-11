@@ -3,3 +3,5 @@ export interface Result {
   howdyDoodie: string;
   urNum: number;
 }
+
+export type LLA = [number, number, number];
