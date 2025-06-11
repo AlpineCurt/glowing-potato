@@ -8,7 +8,7 @@
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "postinstall": "tsc"
+    "preinstall": "tsc"
   },
   "keywords": [],
   "author": "",
