@@ -10,6 +10,6 @@ export default class GeoUtils {
   }
 
   static doOtherThing(xyz: LLA): string {
-    return "happy!!";
+    return "Happy happy joy joy";
   }
 }
